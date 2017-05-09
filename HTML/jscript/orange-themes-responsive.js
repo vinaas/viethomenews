@@ -1,14 +1,14 @@
 
-var iPhoneVertical = Array(null,320,"css/responsive/phonevertical.css?"+Date());
-var iPhoneHorizontal = Array(321,767,"css/responsive/phonehorizontal.css?"+Date());
-var iPad = Array(768,1000,"css/responsive/ipad.css?"+Date());
+var iPhoneVertical = Array(null,320,"assets/css/responsive/phonevertical.css?"+Date());
+var iPhoneHorizontal = Array(321,767,"assets/css/responsive/phonehorizontal.css?"+Date());
+var iPad = Array(768,1000,"assets/css/responsive/ipad.css?"+Date());
 if(!startsizedefault){var startsizedefault = 980;}
 if(startsizedefault == 1270){
-	var dekstop = Array(1001,1310,"css/responsive/desktop.css?"+Date());
-	var full = Array(1311,null,"css/responsive/1270.css?"+Date());
+	var dekstop = Array(1001,1310,"assets/css/responsive/desktop.css?"+Date());
+	var full = Array(1311,null,"assets/css/responsive/1270.css?"+Date());
 }else{
-	var dekstop = Array(1001,1310,"css/responsive/desktop.css?"+Date());
-	var full = Array(1311,null,"css/responsive/desktop.css?"+Date());
+	var dekstop = Array(1001,1310,"assets/css/responsive/desktop.css?"+Date());
+	var full = Array(1311,null,"assets/css/responsive/desktop.css?"+Date());
 }
 
 jQuery(document).ready(function(){
