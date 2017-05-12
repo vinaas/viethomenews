@@ -1,6 +1,6 @@
 
 
-var enableCuffon = true;	// use cuffon
+var enableCuffon = false;	// use cuffon
 
 var breakingStart = true;	// autostart breaking news
 var breakingSpeed = 40;		// breaking msg speed

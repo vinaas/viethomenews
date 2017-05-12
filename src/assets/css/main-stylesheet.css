@@ -1402,6 +1402,11 @@ a.article-comment-icon:hover .comment-icon {
 	padding:2px 15px 0px 0px;
 }
 
+.content-blog .article-block-small-image .article-content > div.article-photo.large {
+	width:250px;
+	padding:2px 15px 0px 0px;
+}
+
 .content-blog .article-block-small-image .article-content p {
 	font-size: 12px;
 	line-height: 150%;
